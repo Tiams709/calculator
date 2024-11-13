@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="bulb" src="./bulb_off-removebg-preview.png" alt="" width="500">
+    <button
+    onclick="switchon()"
+    style="padding: 20px; background-color: blue; color: white;">
+    on
+    </button>
+    <button
+    onclick="switchoff()"
+    style="padding: 20px; background-color: red; color: white;">
+    off
+
+    </button>
+    <script>
+        const bulbImg = document.getElementById("bulb");
+
+        function switchon() {
+            bulbImg.src ="assignment/image/bulbon-removebg-preview.png"
+        }
+        function switchoff() {
+            bulbImg.src = "assignment/image/bulb_off-removebg-preview.png";
+        }
+    </script>
+</body>
+</html>

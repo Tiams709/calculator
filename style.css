@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+button{
+    height: 55px;
+    width: 110px;
+    background-color: white;
+    align-items: center;
+    display: inline-block;
+    gap: 80px;
+    grid-template-columns: repeat(4 ,1fr);
+    border-color: #d0d0d0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #d0d0d0;
+}
